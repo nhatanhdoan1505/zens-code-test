@@ -22,4 +22,24 @@ function miniMaxSum(arr) {
   return [minSum, maxSum];
 }
 
-module.exports = { miniMaxSum };
+function total(arr) {
+  return arr.reduce((a, b) => a + b, 0);
+}
+
+function min(arr) {
+  return arr.reduce((a, b) => (a < b ? a : b));
+}
+
+function max(arr) {
+  return arr.reduce((a, b) => (a > b ? a : b));
+}
+
+function evenElement(arr) {
+  return arr.filter((el) => el % 2 === 0);
+}
+
+function oddElement(arr) {
+  return arr.filter((el) => el % 2 !== 0);
+}
+
+module.exports = { miniMaxSum, total, min, max, evenElement, oddElement };
