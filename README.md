@@ -1,10 +1,19 @@
-Test
-===
+# Test
+
 ## Install & Dependence
-  ```
-  npm i
-  ```
+
+```
+npm i
+```
+
+## Run
+
+```
+npm start
+```
+
 ## Test
+
 ```
 npm test
 ```
